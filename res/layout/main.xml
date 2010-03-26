@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:id="@+id/rebootRecoveryUpdateZip" android:text="@string/btnRebootRecoveryUpdateZip"/>
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/BtnRebootRecovery" android:text="@string/btnRebootRecovery"/>
+
+
+<Button 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:drawingCacheQuality="auto" 
+android:fitsSystemWindows="false" 
+android:text="@string/btnRebootNormal" android:id="@+id/btnRebootNormal">
+</Button>
+
+<TextView android:layout_height="wrap_content" 
+android:id="@+id/TxtArea" 
+android:text="@string/txtAreaInit" 
+android:clickable="false" 
+android:lines="3" 
+android:selectAllOnFocus="true" 
+android:layout_gravity="bottom" 
+android:gravity="bottom|center" 
+android:layout_width="fill_parent" 
+android:layout_weight="1" android:textColor="#FF00FF00">
+</TextView>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnExit" android:id="@+id/btnSalir"></Button>
+</LinearLayout>

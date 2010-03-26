@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">RebootME</string>
+    <string name="btnRebootRecovery">Reboot into Recovery mode</string>
+    <string name="btnRebootRecoveryUpdateZip">Reboot into Recovery and Apply Update.zip</string>
+    <string name="finishRmSearch">Done, he is clean now.</string>
+    <string name="txtAreaInit">RebootME, by Luis Manson</string>
+    <string name="btnRebootNormal">Normal reboot</string>
+    <string name="btnDummyDone">Done doing nothing!</string>
+<string name="btnExit">Exit</string>
+<string name="apply_trying_to_get_root_access">Trying to get root access to reboot in recovery mode</string>
+<string name="apply_unable_to_reboot_toast">Unable to reboot into Recovery</string>
+</resources>
